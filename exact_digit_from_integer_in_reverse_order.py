@@ -2,6 +2,7 @@
 # For example, If the given int is 7536, the output shall be “6 3 5 7“, 
 # with a space separating the digits.
 
+# Code 1 (trial code)
 name = list()
 name.append("1")
 name.append("6")
@@ -14,6 +15,7 @@ name.reverse()
 for name in name:
     print(name)
 
+# Code 2 (trial code)
 number = 1234567890
 print("Given number: ", number)
 while number > 0:
