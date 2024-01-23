@@ -13,3 +13,12 @@ name.reverse()
 
 for name in name:
     print(name)
+
+number = 1234567890
+print("Given number: ", number)
+while number > 0:
+    # last digit
+    digit = number % 10
+    # remove the last digit 
+    number = number // 10
+    print(digit, end=" ")
